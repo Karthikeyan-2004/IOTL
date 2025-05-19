@@ -1,0 +1,23 @@
+const int red = 10;
+const int yellow = 9;
+const int green = 8;
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green, OUTPUT);
+}
+void loop() {
+  // Green light for 5 seconds
+  digitalWrite(green, HIGH);
+  digitalWrite(yellow, LOW);
+  digitalWrite(red, LOW);
+  delay(5000);
+  // Yellow light for 2 seconds
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, HIGH);
+  delay(2000);
+  // Red light for 5 seconds
+  digitalWrite(yellow, LOW);
+  digitalWrite(red, HIGH);
+  delay(5000);
+}
