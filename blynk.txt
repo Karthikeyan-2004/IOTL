@@ -1,6 +1,7 @@
-#define BLYNK_TEMPLATE_ID "YourTemplateID"
-#define BLYNK_DEVICE_NAME "YourDeviceName"
-#define BLYNK_AUTH_TOKEN "YourAuthToken"
+
+#define BLYNK_TEMPLATE_ID "TMPL3A812hiGr"
+#define BLYNK_TEMPLATE_NAME "Temp"
+#define BLYNK_AUTH_TOKEN "MbRIiXGYqjgbt3TGgPDRrkk3tfyORwTQ"
 
 #define BLYNK_PRINT Serial
 
